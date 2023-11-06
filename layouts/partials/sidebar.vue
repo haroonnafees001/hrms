@@ -13,12 +13,7 @@
         <!-- Divider -->
         <hr class="sidebar-divider my-0">
         <!-- Nav Item - Dashboard -->
-        <li class="nav-item active">
-            <NuxtLink class="nav-link" to="/">
-                <i class="fas fa-fw fa-home"></i>
-                <span>Dashboard</span>
-            </NuxtLink>
-        </li>
+
         <li class="nav-item">
             <NuxtLink class="nav-link" to="/users">
                 <i class="fas fa-fw fa-home"></i>
