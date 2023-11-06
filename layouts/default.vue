@@ -48,15 +48,18 @@
 
         watch: {
             $route(to, from) {
-
                if(to.name !=='login' || to.name !=='register' || to.name !=='forgot-password'){
                    this.menuHide = false;
+               }
+               else{
+                   this.menuHide = true;
                }
             },
         },
         mounted() {
             console.log(this.$route.name)
             this.$nuxt.$on('menuHide', data => {
+                console.log(data)
             this.menuHide=data;
         })
         },

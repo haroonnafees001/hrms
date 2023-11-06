@@ -22,14 +22,12 @@
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
                                         </div>
-                                        <a href="/" class="btn btn-primary btn-user btn-block">
-                                            Reset Password
-                                        </a>
+                                        <NuxtLink to="/" class="btn btn-primary btn-user btn-block">
+                                            Reset Now
+                                        </NuxtLink>
                                     </form>
                                     <hr>
-                                    <div class="text-center">
-                                        <NuxtLink class="small" to="forgot-password">Forgot Password?</NuxtLink>
-                                    </div>
+
                                     <div class="text-center">
                                         <NuxtLink class="small" to="register">Create an Account!</NuxtLink>
                                     </div>

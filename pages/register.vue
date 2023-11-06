@@ -40,9 +40,7 @@
                             <div class="text-center">
                                 <NuxtLink class="small" to="forgot-password">Forgot Password?</NuxtLink>
                             </div>
-                            <div class="text-center">
-                                <NuxtLink class="small" to="register">Create an Account!</NuxtLink>
-                            </div>
+
                         </div>
                     </div>
                 </div>
