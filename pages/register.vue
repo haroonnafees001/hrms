@@ -54,7 +54,10 @@
 
 <script>
     export default {
-        name: "register"
+        name: "register",
+        mounted() {
+            this.$nuxt.$emit('menuHide', true);
+        }
     }
 </script>
 
