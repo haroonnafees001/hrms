@@ -8,7 +8,7 @@
         </button>
         <!-- Sidebar Toggler (Sidebar) -->
 
-        <i class="fas fa-bars mx-2"  id="sidebarToggle" style="font-size: 20px;"></i>
+
         <!-- Topbar Navbar -->
         <ul class="navbar-nav ml-auto">
 
