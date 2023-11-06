@@ -1,13 +1,13 @@
 <template>
   <div id="wrapper">
-    <Sidebar/>
+    <Sidebar  v-show="!menuHide" />
 
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
 
       <!-- Main Content -->
       <div id="content">
-        <Navbar/>
+        <Navbar  v-show="!menuHide"  />
       <div class="container-fluid">
         <Nuxt />
       </div>
@@ -40,6 +40,16 @@
             Navbar,
             Sidebar
         },
-
+        data() {
+            return {
+                menuHide: false
+            }
+        },
+        created() {
+            this.$nuxt.$on('menuHide', data => {
+                console.log(data+' emitted')
+            this.menuHide=data;
+        })
+        },
     }
 </script>

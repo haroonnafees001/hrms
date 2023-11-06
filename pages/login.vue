@@ -34,17 +34,17 @@
                                                     Me</label>
                                             </div>
                                         </div>
-                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
+                                        <NuxtLink to="/" class="btn btn-primary btn-user btn-block">
                                             Login
-                                        </a>
+                                        </NuxtLink>
 
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Forgot Password?</a>
+                                        <NuxtLink class="small" to="forgot-password">Forgot Password?</NuxtLink>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="register.html">Create an Account!</a>
+                                        <NuxtLink class="small" to="register">Create an Account!</NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +62,11 @@
 
 <script>
     export default {
-        name: "login"
+        name: "login",
+        mounted() {
+            this.$nuxt.$emit('menuHide', true);
+        }
+
     }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
     <div>
     <!-- Page Heading -->
-        <h1 class="h3 mb-2">Create User</h1>
+        <h1 class="h3 mb-2">Create Memmber</h1>
 
         <div class="col-lg-12 p-0 my-4">
             <div class="card shadow position-relative">
@@ -325,7 +325,7 @@
                 </div>
 
 
-                <button class="btn btn-primary my-4">Save And Continue</button>
+                <NuxtLink to="users" class="btn btn-primary my-4">Save And Continue</NuxtLink>
 
 
 

@@ -2,9 +2,9 @@
     <div class="container-fluid">
         <div class="row my-4 mx-0 justify-content-between">
             <!-- Page Heading -->
-            <h1 class="h3 m-0">Users</h1>
+            <h1 class="h3 m-0">Members</h1>
 
-            <NuxtLink to="/member-area" class="btn btn-primary btn-sm">Create User</NuxtLink>
+            <NuxtLink to="/member-area" class="btn btn-primary btn-sm">Create Member</NuxtLink>
         </div>
 
         <!-- DataTales Example -->

@@ -15,7 +15,28 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+      script: [
+          {
+              src: "/js/jquery/jquery.min.js"},
+          {
+              src: "/js/bootstrap.bundle.min.js"
+          },
+          {
+              src: "/js/jquery-easing/jquery.easing.min.js"
+          },
+          {
+              src: "/js/sb-admin-2.min.js"
+          },
+          {
+              src: "/js/datatables/jquery.dataTables.min.js"
+
+          },
+          {
+              src: "/js/datatables/jquery.dataTables.min.js"
+          },
+      ],
+
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
